@@ -134,7 +134,7 @@ h3 {
 }
 
 h4 {
-	font-size: 4vw;
+	font-size: 3vw;
 }
 
 h5 {
@@ -142,8 +142,8 @@ h5 {
 	font-weight: 100;
 	border: 1px solid rgb(78, 78, 78);
 	border-radius: 25px;
-	width: 25%;
-	padding:1%;
+	width: 44%;
+	padding:3%;
 	text-align: center;
 }
 
@@ -157,7 +157,8 @@ p {
 
 li {
 	list-style-type: disc;
-	list-style-position: inside;
+    list-style-position: inside;
+    font-size: 3vw;
 }
 
 /* Home Page Styling Below */
@@ -227,8 +228,8 @@ li {
 	padding-top: 2%;
 }
 
-img {
-	width:100%;
+.service-banner img{
+    width:100%;
 }
 
 /* Services Boxes  */
@@ -281,8 +282,8 @@ img {
 	padding: 4% 0 0 2%;
 }
 
-.facts-img {
-	width:50%;
+.facts-img img {
+	width:100%;
 }
 
 /* Vision Page Styling  */
@@ -387,6 +388,17 @@ img {
         justify-content: center;
     }
 
+    .service-container h5 {
+        font-size: 2.2vw;
+        margin-top: 4%;
+        margin-bottom: 0%;
+        border: 1px solid rgb(78, 78, 78);
+        border-radius: 10%;
+        width: 36%;
+        padding: 4% 0%;
+        text-align: center;
+    }
+
 }
 
 @media (max-width: 500px){
@@ -425,6 +437,10 @@ img {
         padding: 2% 0%;
     }
 
+    h4 {
+        font-size: 6vw;
+    }
+
     p {
         font-size: 1.3rem;
     }
@@ -450,6 +466,38 @@ img {
 
     .details div{
         margin-top: 2%;
+    }
+
+    .service-container {
+        flex-direction: column;
+        align-items: center;
+        width:100%;
+        margin: 2% auto;
+    }
+
+    .service-container .service-box{
+        width: 100%;
+        padding: 5%;
+    }
+
+    .service-container h5 {
+        font-size: 3.3vw;
+        margin-top: 4%;
+        margin-bottom: 0%;
+        border: 1px solid rgb(78, 78, 78);
+        border-radius: 9%;
+        width: 36%;
+        padding: 4% 0%;
+        text-align: center;
+    }
+
+    .about-services {
+        flex-direction: column;
+    }
+
+    .about-services div{
+        align-items: center;
+        width:100%;
     }
 
 }
