@@ -152,7 +152,7 @@ h6 {
 }
 
 p {
-	font-size: 21px;
+    font-size: 1.3rem;
 }
 
 li {
@@ -338,8 +338,16 @@ img {
         text-align: center;
     }
 
+    h2 {
+        font-size: 4vw;
+    }
+
     h3 {
         font-size: 3vw;
+    }
+
+    p {
+        font-size: 1rem;
     }
     .navbar {
         flex-direction: column-reverse;
@@ -379,15 +387,6 @@ img {
         justify-content: center;
     }
 
-    #about p{
-        font-size:4vh;
-    }
-
-    #services p{
-        font-size: 4vh;
-    }
-
-
 }
 
 @media (max-width: 500px){
@@ -416,7 +415,7 @@ img {
     }
 
     h2 {
-        font-size: 6vh;
+        font-size: 4vh;
     }
 
     h3 {
@@ -424,6 +423,10 @@ img {
         text-align: center;
         margin: 0;
         padding: 2% 0%;
+    }
+
+    p {
+        font-size: 1.3rem;
     }
 
     hr {
