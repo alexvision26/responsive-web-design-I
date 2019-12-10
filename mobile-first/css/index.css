@@ -324,7 +324,7 @@ li {
 
 /* Media Queries Styling  */
 
-@media (min-width: 1px){
+@media (max-width: 800px){
     
     body {
         width:95%;
@@ -401,7 +401,7 @@ li {
 
 }
 
-@media (min-width:800px){
+@media (max-width: 500px){
     body {
         width: 90%;
         margin: 0 auto;
@@ -499,4 +499,7 @@ li {
         align-items: center;
         width:100%;
     }
+
 }
+
+
